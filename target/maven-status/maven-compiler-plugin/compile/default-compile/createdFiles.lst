@@ -1,0 +1,8 @@
+com\github\nithin\gensources\SimpleMessageProto.class
+com\github\nithin\gensources\SimpleMessageProto$1.class
+com\github\nithin\gensources\SimpleMessageProto$SimpleMessage$Builder.class
+com\github\nithin\producer\MyProducer.class
+com\github\nithin\gensources\SimpleMessageProto$SimpleMessage.class
+com\github\nithin\gensources\SimpleMessageProto$SimpleMessageOrBuilder.class
+com\github\nithin\protobuf\SimpleMain.class
+com\github\nithin\gensources\SimpleMessageProto$SimpleMessage$1.class

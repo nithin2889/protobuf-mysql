@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package example.simple;
+
+option java_package = "com.github.nithin.gensources";
+option java_outer_classname = "SimpleMessageProto";
+// option java_multiple_files = true;
+
+message FinancesUser {
+    int64 user_id = 1;
+    string first_name = 2;
+    string last_name = 3;
+    string birth_date = 4;
+    string email_address = 5;
+    string last_updated_by = 6;
+    string last_updated_date = 7;
+    string created_by = 8;
+    string created_date = 9;
+    string user_address_line_1 = 10;
+    string user_address_line_2 = 11;
+    string city = 12;
+    string state = 13;
+    string zip_code = 14;
+}
+
+message Bank {
+    int64 bank_id = 1;
+    string name = 2;
+    string address_line1 = 3;
+    string address_line2 = 4;
+    string city = 5;
+    string state = 6;
+    string zip_code = 7;
+    string last_updated_date = 8;
+    string last_updated_by = 9;
+    string created_date = 10;
+    string created_by = 11;
+}

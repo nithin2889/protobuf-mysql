@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package example.simple;
+
+option java_package = "com.github.nithin.gensources";
+option java_outer_classname = "SimpleMessageProto";
+
+message SimpleMessage {
+    int32 id = 1;
+    bool is_simple = 2;
+    string name = 3;
+    repeated int32 sample_list = 4;
+}
